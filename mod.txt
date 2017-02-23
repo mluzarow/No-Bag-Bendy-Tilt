@@ -1,0 +1,18 @@
+{
+	"name" : "No Bag Bendy Tilt",
+	"description" : "Removes the screen tilt when you pick up a bag.",
+	"author" : "Keys",
+	"contact" : "http://steamcommunity.com/id/ilikekeys/",
+	"version" : "1.00",
+	"updates" : 
+	[
+		{
+			"revision" : 1,
+			"identifier" : "NBT"
+		}
+	],
+	"hooks" : 
+	[
+		{"hook_id" : "lib/units/beings/player/states/playercarry", "script_path" : "lua/no_bendy.lua"}
+	]
+}
